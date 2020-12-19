@@ -1,0 +1,34 @@
+{
+  "name": "room-dekho",
+  "version": "1.0.0",
+  "description": "it helps to find the room on rent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incredible-India/Room-Dekho.git"
+  },
+  "author": "Himanshu Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/incredible-India/Room-Dekho/issues"
+  },
+  "homepage": "https://github.com/incredible-India/Room-Dekho#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "pug": "^3.0.0",
+    "sendotp": "^1.2.9"
+  }
+}

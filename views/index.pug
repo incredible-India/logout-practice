@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{title}
+    body
+        -var istrue = value
+        if(istrue)
+
+            form(action="/register", method="post")
+                input(type="text" name ="name")
+                input(type="password" name="password")
+                input(type="text" name="about")
+                input(type="submit" value ="Register Me")
+            a(href="/login") Log in
+        else
+             form(action="/showdata", method="post")
+                input(type="text" name ="name")
+                input(type="text" name="password")
+                input(type="submit" value ="Log in")
+             a(href="/") Register
+
